@@ -1,0 +1,9 @@
+numpy
+tensorflow
+scipy
+joblib
+fastapi
+uvicorn
+scikit-learn
+pillow
+ytmusicapi

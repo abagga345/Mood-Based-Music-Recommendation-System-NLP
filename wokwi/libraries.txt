@@ -1,0 +1,8 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+
+LiquidCrystal
+HttpClient
+WiFi
+ArduinoJson
+Adafruit SSD1306

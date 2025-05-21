@@ -1,0 +1,23 @@
+{
+ "version": 1,
+"author": "Ayush Arora",
+"editor": "wokwi",
+"parts": [
+{ "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 76.8, "left": 120.04, "attrs": {} },
+{ "type": "wokwi-lcd2004", "id": "lcd1", "top": -102.17, "left": -156.8, "attrs": {} }
+
+],
+"connections": [
+[ "esp:TX", "$serialMonitor:RX", "", [] ],
+[ "esp:RX", "$serialMonitor:TX", "", [] ],
+[ "lcd1:VSS", "esp:GND", "black", [] ],
+[ "lcd1:VDD", "esp:3V3", "red", [] ],
+[ "lcd1:RS", "esp:2", "green", [] ],
+[ "lcd1:RW", "esp:GND", "black", [] ],
+[ "lcd1:E", "esp:0", "green", [] ],
+[ "lcd1:D4", "esp:4", "green", [] ],
+[ "lcd1:D5", "esp:16", "green", [] ],
+[ "lcd1:D6", "esp:17", "green", [] ],
+[ "lcd1:D7", "esp:5", "green", [] ]
+]
+}
